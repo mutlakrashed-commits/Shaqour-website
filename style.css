@@ -613,3 +613,23 @@ footer {
     }
 
 }
+.hero h1,
+.hero p {
+    color: red !important;
+}
+
+.hero-button {
+    color: red !important;
+    background-color: white;
+}
+.hero h1 {
+    color: red !important;
+}
+
+.hero p {
+    color: blue !important;
+}
+
+.hero-button {
+    color: red !important;
+}
