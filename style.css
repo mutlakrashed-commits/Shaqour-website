@@ -576,3 +576,18 @@ footer {
     cursor: pointer;
 
 }
+.kant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+
+    .kant-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

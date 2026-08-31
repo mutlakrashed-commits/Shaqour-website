@@ -13,37 +13,83 @@
 
 </head>
 
+
 <body>
+
+
+<!-- رأس الموقع -->
 
 <header>
 
     <div class="logo">
+
         شقور إخوان
+
         <span>للتجارة</span>
+
     </div>
+
 
     <nav>
 
-        <a href="index.html">الرئيسية</a>
-        <a href="cart.html">
-         🛒 السلة
+        <a href="index.html">
+            الرئيسية
         </a>
+
+        <a href="#products">
+            الأقسام
+        </a>
+
+        <a href="cart.html">
+            🛒 السلة
+        </a>
+
     </nav>
+
 
 </header>
 
 
-<section class="products">
+
+<!-- العنوان الرئيسي -->
+
+<section class="hero">
+
+    <h1>
+        شقور إخوان للتجارة
+    </h1>
+
+    <p>
+        جميع احتياجاتكم من مستلزمات التجارة والأثاث
+    </p>
+
+    <a href="#products" class="hero-button">
+
+        تصفح الأقسام
+
+    </a>
+
+</section>
+
+
+
+<!-- الأقسام -->
+
+<section class="products" id="products">
+
 
     <div class="section-title">
 
-        <h2>أقسام المنتجات</h2>
+        <h2>
+            أقسام المنتجات
+        </h2>
 
         <p>
-            اختر القسم الذي تريد
+            اختر القسم الذي تريد تصفحه
         </p>
 
     </div>
+
 
 
     <div class="product-grid">
@@ -54,12 +100,17 @@
         <a href="wood-screws.html" class="product-card">
 
             <div class="product-image">
+
                 🔩
+
             </div>
+
 
             <div class="product-info">
 
-                <h3>البراغي</h3>
+                <h3>
+                    البراغي
+                </h3>
 
                 <p>
                     براغي خشب بمقاسات مختلفة
@@ -70,20 +121,26 @@
         </a>
 
 
+
         <!-- الغراء -->
 
         <a href="glue.html" class="product-card">
 
             <div class="product-image">
+
                 🧴
+
             </div>
+
 
             <div class="product-info">
 
-                <h3>الغراء</h3>
+                <h3>
+                    الغراء
+                </h3>
 
                 <p>
-                    أنواع وأحجام مختلفة
+                    أنواع مختلفة من الغراء
                 </p>
 
             </div>
@@ -91,69 +148,94 @@
         </a>
 
 
+
         <!-- الفوم -->
 
-        <a class="product-card">
+        <div class="product-card foam-card">
+
 
             <div class="product-image">
+
                 📦
+
             </div>
+
 
             <div class="product-info">
 
-                <h3>الفوم</h3>
+                <h3>
+                    الفوم
+                </h3>
 
-    <div class="old-price">
-    18 شيكل
-</div>
-
-<div class="price">
-    12 شيكل
-</div>
-         <div class="quantity-box">
-
-    <label>
-        العدد:
-    </label>
+                <p>
+                    فوم عالي الجودة
+                </p>
 
 
-    <input
-        type="number"
-        min="1"
-        value="1"
-        class="quantity">
+                <div class="foam-price">
+
+                    <span class="old-price">
+                        18 شيكل
+                    </span>
 
 
-</div>
+                    <span class="new-price">
+                        12 شيكل
+                    </span>
+
+                </div>
 
 
+                <div class="quantity-box">
 
-<button
-    class="add-to-cart"
-    data-name="فوم"
-    data-price="12">
+                    <label>
+                        العدد:
+                    </label>
 
-    🛒 أضف إلى السلة
 
-</button>
-</div>
+                    <input
+                        type="number"
+                        min="1"
+                        value="1"
+                        class="quantity">
+
+
+                </div>
+
+
+                <button
+                    class="add-to-cart"
+                    data-name="فوم"
+                    data-price="12">
+
+                    🛒 أضف إلى السلة
+
+                </button>
+
 
             </div>
 
-        </div> 
+
+        </div>
 
 
-        <!-- الزرفيل -->
+
+        <!-- زرفيل الأبواب -->
 
         <a href="zarfel.html" class="product-card">
 
             <div class="product-image">
+
                 🚪
+
             </div>
+
 
             <div class="product-info">
 
-                <h3>زرفيل الأبواب</h3>
+                <h3>
+                    زرفيل الأبواب
+                </h3>
 
                 <p>
                     ألوان وأنواع مختلفة
@@ -164,18 +246,117 @@
         </a>
 
 
+
+        <!-- السحابات -->
+
+        <a href="zippers.html" class="product-card">
+
+            <div class="product-image">
+
+                🔗
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    السحابات
+                </h3>
+
+                <p>
+                    احجام مختلفة من السحابات
+                </p>
+
+            </div>
+
+        </a>
+
+        <!-- الكنت -->
+
+        <a href="kant.html" class="product-card">
+
+         <div class="product-image">
+
+          💿
+
+          </div>
+
+         <div class="product-info">
+
+             <h3>
+            الكنت
+             </h3>
+
+            <p>
+              أنواع والوان مختلفة
+            </p>
+
+         </div>
+
+
+
     </div>
+
+</a>
 
 </section>
 
 
+
+<!-- التواصل -->
+
+<section class="contact">
+
+
+    <h2>
+        تواصل معنا
+    </h2>
+
+
+    <p>
+
+        📞 0598318424
+
+    </p>
+
+
+    <p>
+
+        رام الله - بيتونيا - شارع البالوع - بجانب قرش موتور
+
+    </p>
+
+
+    <a
+        href="https://wa.me/970598318424"
+        target="_blank"
+        class="whatsapp-button">
+
+        📱 تواصل معنا عبر واتساب
+
+    </a>
+
+
+</section>
+
+
+
+<!-- الفوتر -->
+
 <footer>
 
     <p>
-        © 2026 شقور إخوان للتجارة
+
+        © 2026 شقور إخوان للتجارة - جميع الحقوق محفوظة
+
     </p>
 
 </footer>
+
+
+<script src="script.js"></script>
+
 
 </body>
 
