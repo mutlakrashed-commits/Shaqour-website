@@ -651,3 +651,31 @@ footer {
     }
 
 }
+.drawers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.all-sizes {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .drawers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .all-sizes {
+        font-size: 22px;
+    }
+
+}
